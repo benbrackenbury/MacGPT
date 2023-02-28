@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		7E9E6B7A29AE208900013B4E /* MacGPTApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E9E6B7929AE208900013B4E /* MacGPTApp.swift */; };
+		7E9E6B7A29AE208900013B4E /* AppEntry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E9E6B7929AE208900013B4E /* AppEntry.swift */; };
 		7E9E6B7C29AE208900013B4E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E9E6B7B29AE208900013B4E /* ContentView.swift */; };
 		7E9E6B7E29AE208900013B4E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7E9E6B7D29AE208900013B4E /* Assets.xcassets */; };
 		7E9E6B8129AE208900013B4E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7E9E6B8029AE208900013B4E /* Preview Assets.xcassets */; };
@@ -16,7 +16,7 @@
 /* Begin PBXFileReference section */
 		7E6DC88929AE32F000292528 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		7E9E6B7629AE208900013B4E /* MacGPT.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MacGPT.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		7E9E6B7929AE208900013B4E /* MacGPTApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MacGPTApp.swift; sourceTree = "<group>"; };
+		7E9E6B7929AE208900013B4E /* AppEntry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppEntry.swift; sourceTree = "<group>"; };
 		7E9E6B7B29AE208900013B4E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		7E9E6B7D29AE208900013B4E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7E9E6B8029AE208900013B4E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
@@ -54,7 +54,7 @@
 			isa = PBXGroup;
 			children = (
 				7E6DC88929AE32F000292528 /* Info.plist */,
-				7E9E6B7929AE208900013B4E /* MacGPTApp.swift */,
+				7E9E6B7929AE208900013B4E /* AppEntry.swift */,
 				7E9E6B7B29AE208900013B4E /* ContentView.swift */,
 				7E9E6B7D29AE208900013B4E /* Assets.xcassets */,
 				7E9E6B8229AE208900013B4E /* MacGPT.entitlements */,
@@ -142,7 +142,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7E9E6B7C29AE208900013B4E /* ContentView.swift in Sources */,
-				7E9E6B7A29AE208900013B4E /* MacGPTApp.swift in Sources */,
+				7E9E6B7A29AE208900013B4E /* AppEntry.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

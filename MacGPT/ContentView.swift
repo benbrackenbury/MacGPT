@@ -32,7 +32,6 @@ struct WebView: NSViewRepresentable {
 }
 
 struct ContentView: View {
-
     var body: some View {
         WebView()
             .frame(width: 350, height: 600)
