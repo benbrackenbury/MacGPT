@@ -6,3 +6,5 @@ xcuserdata/
 *.xccheckout
 
 .DS_Store
+
+**/xcuserdata/
