@@ -11,6 +11,7 @@ import WebKit
 struct WebView: NSViewRepresentable {
 
     let view: WKWebView = WKWebView()
+    @Binding var reload: Bool
 
     var request: URLRequest {
         get{
@@ -26,14 +27,30 @@ struct WebView: NSViewRepresentable {
     }
 
     func updateNSView(_ view: WKWebView, context: Context) {
-        view.load(request)
+//        view.load(request)
+        
+        if reload {
+            view.reload()
+            DispatchQueue.main.async {
+                self.reload = false     // must be async
+            }
+        }
     }
-
 }
 
 struct ContentView: View {
+    @State private var shouldRefresh = false
+    
     var body: some View {
-        WebView()
-            .frame(width: 350, height: 600)
+        ZStack{
+            Button(action: {
+                shouldRefresh = true
+            }) {
+                Label("Reload", systemImage: "arrow.clockwise")
+            }
+            .keyboardShortcut("r", modifiers: .command)
+            WebView(reload: $shouldRefresh)
+        }
+        .frame(width: 350, height: 600)
     }
 }
