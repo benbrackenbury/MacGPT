@@ -11,6 +11,7 @@
 		7E9E6B7C29AE208900013B4E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E9E6B7B29AE208900013B4E /* ContentView.swift */; };
 		7E9E6B7E29AE208900013B4E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7E9E6B7D29AE208900013B4E /* Assets.xcassets */; };
 		7E9E6B8129AE208900013B4E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7E9E6B8029AE208900013B4E /* Preview Assets.xcassets */; };
+		7EF3C01F29AF868600BB8C0D /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EF3C01E29AF868600BB8C0D /* SettingsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +22,7 @@
 		7E9E6B7D29AE208900013B4E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7E9E6B8029AE208900013B4E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		7E9E6B8229AE208900013B4E /* MacGPT.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MacGPT.entitlements; sourceTree = "<group>"; };
+		7EF3C01E29AF868600BB8C0D /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +57,7 @@
 			children = (
 				7E6DC88929AE32F000292528 /* Info.plist */,
 				7E9E6B7929AE208900013B4E /* AppEntry.swift */,
+				7EF3C01E29AF868600BB8C0D /* SettingsView.swift */,
 				7E9E6B7B29AE208900013B4E /* ContentView.swift */,
 				7E9E6B7D29AE208900013B4E /* Assets.xcassets */,
 				7E9E6B8229AE208900013B4E /* MacGPT.entitlements */,
@@ -141,6 +144,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7EF3C01F29AF868600BB8C0D /* SettingsView.swift in Sources */,
 				7E9E6B7C29AE208900013B4E /* ContentView.swift in Sources */,
 				7E9E6B7A29AE208900013B4E /* AppEntry.swift in Sources */,
 			);
@@ -271,7 +275,7 @@
 				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				CURRENT_PROJECT_VERSION = 1.0.2;
+				CURRENT_PROJECT_VERSION = 1.1.0;
 				DEVELOPMENT_ASSET_PATHS = "\"MacGPT/Preview Content\"";
 				DEVELOPMENT_TEAM = FJ799JZWN8;
 				ENABLE_HARDENED_RUNTIME = YES;
@@ -285,7 +289,7 @@
 					"@executable_path/../Frameworks",
 				);
 				MACOSX_DEPLOYMENT_TARGET = 13.0;
-				MARKETING_VERSION = 1.0.2;
+				MARKETING_VERSION = 1.1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.benbrackenbury.MacGPT;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -302,7 +306,7 @@
 				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				CURRENT_PROJECT_VERSION = 1.0.2;
+				CURRENT_PROJECT_VERSION = 1.1.0;
 				DEVELOPMENT_ASSET_PATHS = "\"MacGPT/Preview Content\"";
 				DEVELOPMENT_TEAM = FJ799JZWN8;
 				ENABLE_HARDENED_RUNTIME = YES;
@@ -316,7 +320,7 @@
 					"@executable_path/../Frameworks",
 				);
 				MACOSX_DEPLOYMENT_TARGET = 13.0;
-				MARKETING_VERSION = 1.0.2;
+				MARKETING_VERSION = 1.1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.benbrackenbury.MacGPT;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;

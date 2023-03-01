@@ -17,5 +17,9 @@ struct MacGPTApp: App {
         }
         .menuBarExtraStyle(.window)
         .windowResizability(.contentMinSize)
+        
+        Settings {
+            SettingsView()
+        }
     }
 }
